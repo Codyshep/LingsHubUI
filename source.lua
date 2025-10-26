@@ -184,7 +184,7 @@ local function loadSettings()
 
 	if not success then 
 		if writefile then
-			warn('Rayfield had an issue accessing configuration saving capability.')
+			warn('NaraHub had an issue accessing configuration saving capability.')
 		end
 	end
 end
